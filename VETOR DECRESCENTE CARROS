@@ -1,0 +1,19 @@
+programa 
+{
+    cadeia carros[] = {"Volksvagem Santana","Ford Del Rey",
+                       "Volksvagem Voyage","Chevrolet Opala",
+                       "Volksvagem Fusca","Chevrolet D20,","Ford F-1000",
+                       "Volksvagem Gol","Fiat Uno Mille",
+                       "Volksvagem Parati"}
+    inteiro total
+    inteiro numero
+    funcao inicio() 
+    {
+         escreva("Cod - Carros:\n")
+         para(numero = 10; numero > 0; numero--)
+         {
+             total = numero - 1
+             escreva("  ",numero, " - ", carros[total], "\n")
+         }    
+  }
+}
